@@ -69,7 +69,7 @@ const embed = new MessageEmbed()
 .addField("Roles", guild.roles.cache.size, true)
 .addField("Creation Date", `${guild.createdAt.toUTCString().substr(0, 16)} (${checkDays(guild.createdAt)})`, true)
 .setThumbnail(guild.iconURL())
-.setColor(message.guild.me.displayHexColor);
+    .setColor(message.guild.me.displayHexColor);
     message.channel.send({embed}).catch(error => {
         message.channel.send(`Error: ${error}`)
 
