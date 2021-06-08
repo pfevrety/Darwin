@@ -7,7 +7,7 @@
        "setPrefixInvalidPermission": "You need the ADMINISTRATOR permission to run this command",
        "setPrefixMissingArgument": "You did not specify the new prefix",
        "setPrefixLongLength": "The prefix length can't be more than 5",
-       "setPrefixChange": "Prefix has been changed to ``{prefix}``",
+       "setPrefixChange": "Prefix has been changed to {prefix}",
 
        "helpInvalidCommand": "Invalid Command",
        "helpInvalidListCommand": "Do `{prefix}help` for the list of the commands.",
@@ -341,8 +341,8 @@
        "noNews": "There are no news at the moment!",
        "datePublished": "Date Published:",
        "pinging": "Pinging...",
-       "ping_calcul": "** Calculation of the ping ...**",
-       "ping_info": "\uD83D\uDC77 Ping of the bot: ``{ping1}``.\n⚙ Ping lantence of the discord API: ``{ping2}``.  ",
+       "timeTaken": "Time taken:",
+       "discordAPI": "Discord API:",
        "nameS": "Name:",
        "owner": "Owner",
        "serverInfo1": "All | Members | Bots",
@@ -598,7 +598,6 @@
        "setdaysInvalidArg": "Please specify a valid day, it also must be a number",
        "setdaysSuccess": "Successfully changed the alternative axcounts age restriction",
 
-       "abypassSuccess": "<@{user}> a été ajouter à la liste!",
        "abypassNotPremium10": "You cannot have more than 10 IDs since this guild is not premium",
        "abypassSuccess": "I have successfully added {userID} to the users who can bypass the system",
        "abypassNotValidUser": "This is not a valid userID to bypass",
@@ -606,8 +605,8 @@
        "adisallowNotInArray": "This user is not bypassing the alt detector",
        "adisallowSucess": "This user has been successfully removed",
 
-       "aactionNotValidChoice": "You need to specify a choice between: **{allChoices}**!",
-       "aactionSuccess": "I have successfully changed the action to: **{action}** !",
+       "aactionNotValidChoice": "You need to specify between: {allChoices}",
+       "aactionSuccess": "I have successfully changed the action to {action}",
 
        "amodlogNotValidChannel": "The channel you provided is not a valid channel",
        "amodlogSuccess": "I have successfully set {modLog} as the modlog channel",
