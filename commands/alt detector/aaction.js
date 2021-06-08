@@ -43,13 +43,13 @@ module.exports = class extends Command {
             
             await newGuild.save()
             .catch(err => { console.log( err ) })
-            return message.channel.send(new discord.MessageEmbed().setAuthor(`${message.author.tag}`, message.author.displayAvatarURL({ format: 'png' })).setDescription(`${message.client.emoji.success} ${language.aactionSuccess.replace("{action}", args[0])}`).setFooter('https://pogy.xyz').setTimestamp().setColor('RED'));
+            return message.channel.send(new discord.MessageEmbed().setAuthor(`${message.author.tag}`, message.author.displayAvatarURL({ format: 'png' })).setDescription(`${message.client.emoji.success} ${language.aactionSuccess.replace("{action}", args[0])}`).setFooter('https://darwin-bot.xyz').setTimestamp().setColor(message.client.color.red));
           }
       await db.updateOne({
         altAction: args[0].toLowerCase()
       })
 
-      return message.channel.send(new discord.MessageEmbed().setAuthor(`${message.author.tag}`, message.author.displayAvatarURL({ format: 'png' })).setDescription(`${message.client.emoji.success} ${language.aactionSuccess.replace("{action}", args[0])}`).setFooter('https://pogy.xyz').setTimestamp().setColor('RED'));
+      return message.channel.send(new discord.MessageEmbed().setAuthor(`${message.author.tag}`, message.author.displayAvatarURL({ format: 'png' })).setDescription(`${message.client.emoji.success} ${language.aactionSuccess.replace("{action}", args[0])}`).setFooter('https://darwin-bot.xyz').setTimestamp().setColor(message.client.color.green));
     
   })
   }
