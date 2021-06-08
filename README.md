@@ -1,12 +1,12 @@
 <h1 align="center">
  <br>
-  <a href="https://github.com/peterhanania"><img src="https://pogy.xyz/thumb.png"></a>
+  <a href="https://github.com/pfevrety"><img src="https://cdn.discordapp.com/app-icons/761598393004458004/4c93e738cd78a794fd481b0caccca401.png?size=256"></a>
   <br>
-  Pogy the Discord Bot
+  Darwin Bot
   <br>
 </h1>
 
-<h3 align=center>A fully customizable bot built with 183 commands, 12 categories and a dashboard!</h3>
+<h3 align=center>A fully customizable bot with many command!</h3>
 
 
 <div align=center>
@@ -19,7 +19,7 @@
     <img src="https://img.shields.io/badge/discord.js-v12.5.3-blue.svg?logo=npm" alt="discordjs">
   </a>
 
-  <a href="https://github.com/peterhanania/Pogy/blob/main/LICENSE">
+  <a href="https://github.com/pfevrety/Darwin/blob/main/LICENSE">
     <img src="https://img.shields.io/badge/license-Apache%202-blue" alt="license">
   </a>
 
@@ -43,7 +43,7 @@
 
 ## About
 
-Pogy is a discontinued discord bot that took over 4 months of work to make. I decided to make the bot open sourced to whoever wants to run a copy in their server! You can click [this](https://pogy.xyz/invite) link to invite the official Bot! Also, you can join the official [Pogy's Support Server](https://pogy.xyz/support) for assistance.
+Darwin is a discontinued discord bot that took over 4 months of work to make. I decided to make the bot open sourced to whoever wants to run a copy in their server! You can click [this](https://pogy.xyz/invite) link to invite the official Bot! Also, you can join the official [Darwin's Support Server](https://pogy.xyz/support) for assistance.
 
 If you liked this repository, feel free to leave a star ⭐ and follow me, it actually means a lot.
 
@@ -64,7 +64,7 @@ If you liked this repository, feel free to leave a star ⭐ and follow me, it ac
   * **reaction roles:** Reaction roles
   * **tickets:** Guild tickets for support 
 
-Pogy even has the following features on the website
+Darwin even has the following features on the website
 
   * **Ticket Transcripts** + **Application Transcripts**
   * **Contact & Report** page
@@ -77,23 +77,16 @@ Pogy even has the following features on the website
   * Auto Mod, Levelling, and Commands ( not done )
   * Built in TOP.gg API
  
- <h1 align="center">
-  <a href="https://github.com/peterhanania"><img src="https://i.imgur.com/On7mMNg.jpg["></a>
-</h1>
-
   
  **Webhooks: (for Developer)**
- With Pogy You can even log everything using webhooks. ( you will have to change each webhook using visual studio code )
+ With Darwin You can even log everything using webhooks. ( you will have to change each webhook using visual studio code )
 
-<h1 align="center">
-  <a href="https://github.com/peterhanania"><img src="https://i.imgur.com/vbGuLdL.jpg"></a>
-</h1>
 
 ## Installation
 
 First clone the repo:
 ```
-git clone https://github.com/peterhanania/Pogy.git
+git clone https://github.com/pfevrety/Darwin.git
 ```
 After cloning, run an
 ```
@@ -154,7 +147,7 @@ Pease make sure you have enabled `Privileged Intents` on your Discord [developer
 
 You can launch the bot with `node shard.js` 
 
-**Important Note:** Pogy has so many bugs and requires a lot of js knowledge. You will have some difficulty running the bot if you have no experience in discord.js. 
+**Important Note:** Darwin has so many bugs and requires a lot of js knowledge. You will have some difficulty running the bot if you have no experience in discord.js. 
 
 ### Emojis 
 - You can change the emojis in: <br>
@@ -171,11 +164,10 @@ You can launch the bot with `node shard.js`
 
 Released under the [Apache License](http://www.apache.org/licenses/LICENSE-2.0) license.
 
-## Donate
+## Darwin Credits
+* **Peter Hanania** - *developer* - [github](https://github.com/pfevrety)
 
-You can donate Pogy and make it stronger than ever [by clicking here](https://paypal.me/pogybot)!
-
-## Credits
+## Pogy Credits
 
 * **Peter Hanania** - *head developer* - [github](https://github.com/peterhanania)
 * **Wlegit** - *developer*  - [github](https://github.com/wlegit)
