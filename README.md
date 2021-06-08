@@ -49,7 +49,7 @@ If you liked this repository, feel free to leave a star ⭐ and follow me, it ac
 
 ## Features
 
-**183+** commands and **12** different categories!
+**160+** commands and **11** different categories!
 
   * **alt detector:** Blocks alts from the guild
   * **applications:** Manage applications from the website
@@ -60,7 +60,6 @@ If you liked this repository, feel free to leave a star ⭐ and follow me, it ac
   * **images:** Image Commands
   * **information:** Information Commands
   * **moderation:** Mod commands to moderate your discord server
-  * **nsfw:** 👀
   * **reaction roles:** Reaction roles
   * **tickets:** Guild tickets for support 
 
