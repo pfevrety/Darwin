@@ -52,7 +52,7 @@ module.exports = class extends Command {
         } else color = message.guild.me.displayHexColor
 
 
-        embed.setDescription(`${koko}`)
+        embed.setDescription(koko)
         embed.setColor(color)
         msg.edit(embed);
 
