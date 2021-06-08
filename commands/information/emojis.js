@@ -33,7 +33,7 @@ module.exports = class extends Command {
             .setAuthor(`${language.emoji1}`, message.guild.iconURL({dynamic: true}))
             .setFooter(message.author.tag, message.author.displayAvatarURL({dynamic: true}))
             .setTimestamp()
-            .setColor(message.guild.me.displayHexColor);
+            .setColor(message.client.color.blue);
 
         const interval = 25;
         if (emojis.length === 0) message.channel.send(embed.setDescription(`${language.emoji2}`));

@@ -33,8 +33,8 @@ let role = message.mentions.roles.first() ||message.guild.roles.cache.get(args[0
 let embedValid = new MessageEmbed()
 .setAuthor(message.author.tag, message.author.displayAvatarURL())
 .setDescription(`${language.members2.replace(/{prefix}/g, `${prefix}`)}`)
-.setFooter('https://pogy.xyz')
-.setColor(message.guild.me.displayHexColor)
+.setFooter('https://darwin-bot.xyz')
+.setColor(message.client.color.blue)
 
 if(!args[0]) return message.channel.send(embedValid)
 
@@ -51,7 +51,7 @@ const memberRole = role
       .setTitle(`${capitalize(memberRole.name)} ${language.list} [${members.length}]`)
       .setFooter(message.author.tag, message.author.displayAvatarURL({ dynamic: true }))
       .setTimestamp()
-      .setColor(message.guild.me.displayHexColor);
+      .setColor(message.client.color.blue);
 
     const interval = 25;
     if (members.length === 0) message.channel.send(embed.setDescription(`${language.members1.replace('{cap}', `${capitalize(memberRole.name)}`)}`));

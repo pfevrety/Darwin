@@ -35,7 +35,7 @@ module.exports = class extends Command {
       .setDescription(`\`\`\`diff\n${finalPermissions.join('\n')}\`\`\``)
       .setFooter(message.member.displayName, message.author.displayAvatarURL({ dynamic: true }))
       .setTimestamp()
-      .setColor(message.guild.me.displayHexColor);
+      .setColor(message.client.color.blue);
     message.channel.send(embed);
   }
 
