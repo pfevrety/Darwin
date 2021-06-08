@@ -23,7 +23,7 @@
   "lock": "<:lock:790494601189261323>  ",
   "unlock": "<:unlock:790494567753187338> ",
 
-  "owner": "<:owner:790146744348442624>  ",
+  "owner": "\uD83D\uDC51 ",
 
   "discord_employee":"<:discordemployee:790152842382934038>  ",
   "discord_partner": "<:partnered:790152935152680960>",
@@ -48,17 +48,16 @@
 
   "pong": "<:online:790132184018059304>",
 
-  "altdetector":"<:alt:826845773656096838>",
-  "applications":"<:form:826846790208716831>",
-  "config":"<:configs_emoji:788427972628447293>",
-  "utility":"<:utils_emoji:788429328039280661>",
-  "economy":"<:currency_emoji:788428132683350058>",
-  "fun":"<:fun_emoji:788428109980368916> ",
-  "images":"<:image_emoji:788427949509836840>",
-  "information":"<:information_emoji:788428196528914472> ",
-  "moderation":"<:moderation_emoji:788428121375768586>",
-  "nsfw":"<:nsfw:826845810024644659> ",
-  "reactionrole":"<:reaction_roles:826845827191406694>",
-  "tickets":"<:ticket:826845944669536266>"
+  "altdetector":"\uD83D\uDCB3",
+  "applications":"\uD83D\uDCCB",
+  "config":"\uD83E\uDD16",
+  "utility":"⛭",
+  "economy":"\uD83D\uDCB5",
+  "fun":"\uD83D\uDE02",
+  "images":"\uD83D\uDCF8",
+  "information":"\uD83D\uDCF0",
+  "moderation":"\uD83D\uDD28",
+  "reactionrole":"☑️",
+  "tickets":"\uD83C\uDF9F️"
 
 }
