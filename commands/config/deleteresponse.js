@@ -13,7 +13,6 @@ module.exports = class extends Command {
         usage: [ '<command>' ],
         examples: [ 'deleteresponse Pog' ],
         cooldown: 3,
-        userPermission: ['MANAGE_GUILD'],
       });
     }
 
