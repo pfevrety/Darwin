@@ -379,7 +379,7 @@ module.exports = class extends Event {
                             .setTitle(`<:wrong:822376943763980348> Missing User Permissions`)
                             .setDescription(`Command Name: **${command.name}**\nRequired Permission: **${missingPermissions.map(p => `${p}`).join('\n')}**`)
                             .setTimestamp()
-                            .setFooter('https://pogy.xyz')
+                            .setFooter('https://darwin-bot.xyz')
                             .setColor(message.guild.me.displayHexColor);
                         return message.channel.send(embed).catch(() => {
                         })
@@ -388,7 +388,6 @@ module.exports = class extends Event {
                 }
                 if (disabledCommands.includes(command.name || command)) return;
 
-                console.log('a')
                 if (!command.voted) {
                     let voted = true;
                     if (!voted) {
