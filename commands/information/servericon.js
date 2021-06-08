@@ -7,7 +7,6 @@ module.exports = class extends Command {
         name: 'servericon',
         aliases: ["sicon"],
         description: 'Display\'s the current Server Icon',
-        category: 'Information',
         cooldown: 3
       });
     }

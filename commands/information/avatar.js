@@ -1,5 +1,4 @@
 const Command = require('../../structures/Command');
-const fetch = require('node-fetch');
 const { MessageEmbed } = require('discord.js');
 
 const Guild = require('../../database/schemas/Guild');
@@ -36,7 +35,7 @@ module.exports = class extends Command {
       .setImage(member.user.displayAvatarURL({ dynamic: true, size: 512 }))
       .setFooter(message.member.displayName,  message.author.displayAvatarURL({ dynamic: true }))
       .setTimestamp()
-      .setColor(member.displayHexColor);
+      .setColor(message.client.color.blue);
        return message.channel.send(embed);
     }
 };
