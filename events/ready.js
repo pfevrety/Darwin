@@ -1,4 +1,3 @@
-const muteModel = require('../models/mute');
 const Event = require('../structures/Event');
 const logger = require('../utils/logger');
 const Maintenance = require('../database/schemas/maintenance')
@@ -21,8 +20,8 @@ if(maintenance && maintenance.toggle == "true"){
 logger.info(`✅ loaded Maintenance Mode `, { label: 'Status' })
 } else {
     const activities = [
-      { name: 'p!help | pogy.xyz', type: 'WATCHING' }, 
-      { name: '@pogy', type: 'WATCHING' }
+      { name: '.help | darwin.xyz', type: 'WATCHING' },
+      { name: '@Darwin', type: 'WATCHING' }
     ];
   
 
@@ -32,8 +31,8 @@ logger.info(`✅ loaded Maintenance Mode `, { label: 'Status' })
   
 
     setInterval(() => {
-      activities[2] = { name: `p!help | ${ this.client.guilds.cache.size} guilds`, type: 'WATCHING' };
-      activities[3] = { name: `p!help | ${ this.client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)} users`, type: 'WATCHING' }; 
+      activities[2] = { name: `.help | ${ this.client.guilds.cache.size} guilds`, type: 'WATCHING' };
+      activities[3] = { name: `.help | ${ this.client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)} users`, type: 'WATCHING' };
       if (activity > 3) activity = 0;
       this.client.user.setActivity(activities[activity]);
       activity++;
