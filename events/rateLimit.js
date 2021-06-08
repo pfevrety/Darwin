@@ -1,4 +1,3 @@
-const muteModel = require('../models/mute');
 const Event = require('../structures/Event');
 const logger = require('../utils/logger');
 const Maintenance = require('../database/schemas/maintenance')
